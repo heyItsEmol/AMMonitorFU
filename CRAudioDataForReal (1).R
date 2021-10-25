@@ -214,7 +214,7 @@ account_info['name']
 # Return the functions in rdrop2 as a data.frame
 data.frame(ls("package:rdrop2"))
 getwd()
-meta <- dropboxMetadata(directory = 'AMMonitor/recordings', 
+meta <- dropboxMetadata(directory = 'CR.AMMonitor2/AMMonitor/recordings', 
                         token.path = 'AMMonitor/settings/dropbox-token.RDS') 
 
 ?dropboxMetadata
@@ -224,8 +224,8 @@ as.data.frame(meta[,'path_display'])
 # Move files and insert metadata to the recordings database table
 dropboxMoveBatch(db.path = db.path,
                  table = 'recordings', 
-                 dir.from = 'recording_drop', 
-                 dir.to = 'recordings', 
+                 dir.from = 'CR.AMMonitor2/AMMonitor/recording_drop', 
+                 dir.to = 'CR.AMMonitor2/AMMonitor/recordings', 
                  token.path = 'AMMonitor/settings/dropbox-token.RDS')
 
 
