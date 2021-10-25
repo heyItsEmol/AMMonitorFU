@@ -1,6 +1,8 @@
 # AMMonitorFU
 
 Hello FU Members!
+
+Welcome to GitHub! 
 GitHub allows our community to effciently add to, adjust, or change the code we have created on the AMMonitor at the comfort of your own laptop!
 
 The branch "main" is (as the name says) our UPDATED main code/file
